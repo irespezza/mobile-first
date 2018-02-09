@@ -17,6 +17,67 @@ html, body {
   font-size: 16px;
 }
 
+p {
+  font-family: 'Raleway', sans-serif;
+  max-width: 650px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.byline {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.cap {
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-size: 10px;
+  color: #999999;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  font-family: 'Raleway', sans-serif;
+  border: 1px solid #CCCCCC;
+  border-collapse: collapse;
+  /*align-content: center;*/
+}
+
+td, th {
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  padding: 10px;
+}
+
+#video {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
